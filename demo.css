@@ -115,4 +115,48 @@ main .btn:hover {
 .location {
   margin-top: 20px;
   text-align: center;
+}
+
+footer {
+  background-color: black;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .contract-us h3 {
+  color: white;
+  padding: 10px;
+}
+footer .contract-us input {
+  padding: 5px;
+  font-size: 14px;
+}
+footer .contract-us .btn {
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  transition: all 0.6s;
+}
+footer .contract-us .btn:hover {
+  background-color: gray;
+}
+footer .social-media {
+  margin-top: 20px;
+}
+footer .social-media h3 {
+  color: white;
+}
+footer .social-media ul {
+  display: flex;
+}
+footer .social-media ul li {
+  list-style: none;
+  margin: 10px;
+}
+footer .social-media ul li a {
+  text-decoration: none;
+  font-size: 18px;
 }/*# sourceMappingURL=demo.css.map */
