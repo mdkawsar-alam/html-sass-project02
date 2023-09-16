@@ -110,4 +110,9 @@ main .btn {
 }
 main .btn:hover {
   background-color: rgb(102, 169, 0);
+}
+
+.location {
+  margin-top: 20px;
+  text-align: center;
 }/*# sourceMappingURL=demo.css.map */
