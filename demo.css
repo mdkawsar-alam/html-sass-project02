@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14dd99;
+  padding: 30px;
+}
+.navber .logo h1 {
+  font-weight: bolder;
+}
+.navber .logo h1 a {
+  text-decoration: none;
+  color: white;
+}
+.navber .nav-menu ul li {
+  display: inline;
+  margin: 20px;
+  font-size: 16px;
+}
+.navber .nav-menu ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  border-radius: 14px;
+}
+.navber .nav-menu ul :last-child {
+  margin: 0;
+}
+.navber .nav-menu ul li a:hover {
+  background-color: rgb(112, 108, 108);
+  padding: 10px;
+}/*# sourceMappingURL=demo.css.map */
